@@ -46,6 +46,7 @@ veuillez-vous référer à l'énoncer du laboratoire.
 | port             | Port écouté par le serveur Web                            |              8080 |
 |                  |                                                           |                   |
 |                  | **Serveur de licence**                                    |                   |
+| cryptoprotocol   | Protocol du serveur de licence (http\|https)              |              http |
 | cryptoserver     | Ip ou dns du serveur de licence                           |         127.0.0.1 |
 | cryptoserverport | Port du serveur de licence                                |              8080 |
 | cryptolicence    | Licence utilisée pour l'application                       |                   |
