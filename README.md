@@ -17,11 +17,14 @@ Vous pouvez télécharger celui-ci sur le site d’Oracle: [lien](https://www.or
 Pour démarrer les applications en Linux:
 
 ```
-nohup java -jar <application>.jar [arguments]
+nohup java -jar <application>.jar [arguments] &
 ``` 
 
 La commande `nohup` empêche la fermeture de l'application après la fin de l'exécution du script de démarrage.
-Si vous voulez tester les applications en **Windows** veuillez retirer `nohup`.
+Le `&` permet d'executé la ligne de commande en arrière plan.
+Si vous voulez tester les applications en **Windows** veuillez retirer `nohup` et `&`.
+
+
 
 ## Configuration
 
